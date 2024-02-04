@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.1.1
     version: 1.1.1
   '@vercel/blob':
-    specifier: ^0.15.0
-    version: 0.15.0
+    specifier: ^0.15.1
+    version: 0.15.1
   '@vercel/kv':
     specifier: ^1.0.0
     version: 1.0.0
@@ -1924,8 +1924,8 @@ packages:
       server-only: 0.0.1
     dev: false
 
-  /@vercel/blob@0.15.0:
-    resolution: {integrity: sha512-bWTuln4nkMG7APvcqIA2y5YCYKnmpUdzoITRdJOpDVeRSVoyVFwYOZleb/bj7UWDGfRN7P2JJ2mMMQ2nrpysEQ==}
+  /@vercel/blob@0.15.1:
+    resolution: {integrity: sha512-Wo7VU9/tM8kkv7krvxGoDeu/Li0h7PYR/TB1TEiyJZzACruA0jWqj44OGokJQCYN3ZvV5tXHpTAN6pImIBCrUw==}
     engines: {node: '>=16.14'}
     dependencies:
       jest-environment-jsdom: 29.7.0
@@ -2059,6 +2059,7 @@ packages:
 
   /abab@2.0.6:
     resolution: {integrity: sha512-j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==}
+    deprecated: Use your platform's native atob() and btoa() methods instead
     dev: false
 
   /acorn-globals@7.0.1:
@@ -2818,6 +2819,7 @@ packages:
   /domexception@4.0.0:
     resolution: {integrity: sha512-A2is4PLG+eeSfoTMA95/s4pvAoSo2mKtiM5jlHkAVewmiO8ISFTFKZjH7UAM1Atli/OT/7JHOrJRJiMKUZKYBw==}
     engines: {node: '>=12'}
+    deprecated: Use your platform's native DOMException instead
     dependencies:
       webidl-conversions: 7.0.0
     dev: false
